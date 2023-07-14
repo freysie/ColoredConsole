@@ -4,14 +4,53 @@ use strict;
 use Data::Dumper;
 use Getopt::Long;
 
-my %codeColors = 
+#my %codeColors =
+#(
+#    "0xFE06" => "#FC618D",
+#    "0xFE07" => "#7BD88F",
+#    "0xFE08" => "#FD9353",
+#    "0xFE09" => "#948AE3",
+#    "0xFE0A" => "#7F7D84",
+#);
+
+my %codeColors =
 (
-    "0xFE06" => "#DB2C38",
-    "0xFE07" => "#41B645",
-    "0xFE08" => "#C67C48",
-    "0xFE09" => "#00A0BE",
-    "0xFE0A" => "#B21889",
+ "0xFE00" => "#7F7D84",
+ "0xFE01" => "#FC618D",
+ "0xFE02" => "#7BD88F",
+ "0xFE03" => "#FCE566",
+ "0xFE04" => "#FD9353",
+ "0xFE05" => "#948AE3",
+ "0xFE06" => "#5AD4E6",
+ "0xFE07" => "#F7F1FF",
+
+ "0xFE08" => "#D6D6D6",
+ "0xFE09" => "#FC618D",
+ "0xFE0A" => "#7BD88F",
+ "0xFE0B" => "#FCE566",
+ "0xFE0C" => "#FD9353",
+ "0xFE0D" => "#948AE3",
+ "0xFE0E" => "#00E5E5",
+ "0xFE0F" => "#F7F1FF",
 );
+
+#7F7D84
+#FC618D
+#7BD88F
+#FCE566
+#FD9353
+#948AE3
+#5AD4E6
+#F7F1FF
+
+#D6D6D6
+#FC618D
+#7BD88F
+#FCE566
+#FD9353
+#948AE3
+#00E5E5
+#F7F1FF
 
 foreach my $fontName ("ColoredConsole-Bold")
 {
